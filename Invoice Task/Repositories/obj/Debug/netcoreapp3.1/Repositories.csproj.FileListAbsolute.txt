@@ -1,0 +1,28 @@
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.json
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.dev.json
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Entities.dll
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\ITI\Previous\FirstQuarter\Courses\ASP.NTE MVC Core\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.json
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.dev.json
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+D:\Visual\ASP\Day8\LuxorDemo\Entities\Repositories\obj\Debug\netcoreapp3.1\Repositories.genruntimeconfig.cache
