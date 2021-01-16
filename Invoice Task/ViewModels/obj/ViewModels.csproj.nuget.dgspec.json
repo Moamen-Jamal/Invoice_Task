@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\ViewModels\\ViewModels.csproj": {}
+    "D:\\Visual\\CompuMedical\\Invoice Task\\ViewModels\\ViewModels.csproj": {}
   },
   "projects": {
-    "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj": {
+    "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\obj\\",
+        "outputPath": "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -83,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\ViewModels\\ViewModels.csproj": {
+    "D:\\Visual\\CompuMedical\\Invoice Task\\ViewModels\\ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\ViewModels\\ViewModels.csproj",
+        "projectUniqueName": "D:\\Visual\\CompuMedical\\Invoice Task\\ViewModels\\ViewModels.csproj",
         "projectName": "ViewModels",
-        "projectPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\ViewModels\\ViewModels.csproj",
+        "projectPath": "D:\\Visual\\CompuMedical\\Invoice Task\\ViewModels\\ViewModels.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\ViewModels\\obj\\",
+        "outputPath": "D:\\Visual\\CompuMedical\\Invoice Task\\ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,8 +114,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj"
+              "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj"
               }
             }
           }
@@ -150,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

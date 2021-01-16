@@ -16,6 +16,18 @@ namespace Entities
                 .HasColumnName("Quantity")
                 .IsRequired();
 
+            builder.Property(i => i.TotalPrice)
+                .HasColumnName("TotalPrice")
+                .IsRequired();
+
+            builder.Property(i => i.Discount)
+                .HasColumnName("Discount")
+                .IsRequired();
+
+            builder.Property(i => i.NetPrice)
+                .HasColumnName("NetPrice")
+                .IsRequired();
+
             builder.HasOne(i => i.Invoice)
                 .WithMany(i => i.InvoiceItemUnits)
                 .HasForeignKey(i => i.InvoiceID)

@@ -54,15 +54,27 @@ namespace Repositories.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<decimal>("Discount")
+                        .HasColumnName("Discount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("InvoiceID")
                         .HasColumnType("int");
 
                     b.Property<int>("ItemUnitID")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("NetPrice")
+                        .HasColumnName("NetPrice")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("Quantity")
                         .HasColumnName("Quantity")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnName("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("ID");
 

@@ -16,7 +16,7 @@ namespace ViewModels
                 Name = model.Name,
                 StoreID = model.StoreID,
                 StoreName = model.Store.Name,
-                ItemUnit = model.ItemUnits.Where(i => i.ItemID == model.ID).Select(i => i.ToViewModel()).ToList(),
+                //ItemUnit = model.ItemUnits.Where(i => i.ItemID == model.ID).Select(i => i.ToViewModel()).ToList(),
             };
         }
 

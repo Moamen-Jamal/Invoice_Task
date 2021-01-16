@@ -8,6 +8,7 @@ namespace ViewModels
     {
         public int ID { get; set; }
         public decimal Price { get; set; }
+        
         public int ItemID { get; set; }
         public string ItemName { get; set; }
         public int UnitID { get; set; }

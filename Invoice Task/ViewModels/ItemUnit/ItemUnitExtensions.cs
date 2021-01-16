@@ -13,10 +13,11 @@ namespace ViewModels
             {
                 ID = model.ID,
                 Price = model.Price,
-                ItemID = model.ItemID,
+                ItemID = model.Item.ID,
                 ItemName = model.Item.Name,
-                UnitID = model.UnitID,
-                UnitName = model.Unit.Name
+                UnitID = model.Unit.ID,
+                UnitName = model.Unit.Name,
+                
             };
         }
 
@@ -28,7 +29,7 @@ namespace ViewModels
                 Price = editModel.Price,
                 ItemID = editModel.ItemID,
                 UnitID = editModel.UnitID,
-
+                
             };
         }
         public static ItemUnitEditViewModel ToEditableModel(this ItemUnit model)
@@ -37,10 +38,11 @@ namespace ViewModels
             {
                 ID = model.ID,
                 Price = model.Price,
-                ItemID = model.ItemID,
+                ItemID = model.Item.ID,
                 ItemName = model.Item.Name,
-                UnitID = model.UnitID,
-                UnitName = model.Unit.Name
+                UnitID = model.Unit.ID,
+                UnitName = model.Unit.Name,
+                
             };
         }
     }

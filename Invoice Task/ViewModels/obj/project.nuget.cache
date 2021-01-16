@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3e/uI69mLKVxqzi5wK/EctB9ALacjnokfybvHmq5GuNMQIPYzLECg8HRRncclEafviPV82Qvo+yZS9WIFDnE+w==",
+  "dgSpecHash": "yzmFy+XfRe0YxcqMYOTeED6zOlLi2EoTl5aF6oterv8KFCLQROF8BWG51OVj3ecTnVHnqdZjgP/Rt961Dqqhrg==",
   "success": true,
-  "projectFilePath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\ViewModels\\ViewModels.csproj",
+  "projectFilePath": "D:\\Visual\\CompuMedical\\Invoice Task\\ViewModels\\ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.4\\microsoft.aspnetcore.http.features.3.1.4.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

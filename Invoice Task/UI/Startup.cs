@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json.Serialization;
 using Repositories;
 using Services;
 
@@ -25,6 +26,12 @@ namespace UI
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews()
+                .AddSessionStateTempDataProvider();
+            services.AddRazorPages()
+                .AddSessionStateTempDataProvider();
+
+            services.AddSession();
             services.AddScoped(typeof(StoreService));
 
             foreach (TypeInfo T in
@@ -38,7 +45,7 @@ namespace UI
 
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.IdleTimeout = TimeSpan.FromMinutes(50);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
@@ -50,6 +57,7 @@ namespace UI
                 (i => i.UseSqlServer(Configuration.GetConnectionString("CompuMedical")));
 
             services.AddMvc(i => i.EnableEndpointRouting = false);
+            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -60,7 +68,7 @@ namespace UI
             }
 
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseMvc(i =>
             {
                 i.MapRoute

@@ -24,11 +24,11 @@ namespace Services
 
         public ItemUnitViewModel GetByID(int id)
         {
-            return itemUnitTory.GetByID(id)?.ToViewModel();
+            return itemUnitTory.GetByID(id).ToViewModel();
         }
         public IEnumerable<ItemUnitViewModel> GetList()
         {
-            return itemUnitTory?.GetList()?.ToList()?.Select(i => i?.ToViewModel());
+            return itemUnitTory.GetList().ToList().Select(i => i.ToViewModel());
         }
         //public IEnumerable<ItemUnitViewModel> Get(int id = 0, string name = "", int pageIndex = 0, int pageSize = 20)
         //{

@@ -13,5 +13,6 @@ namespace ViewModels
         [MaxLength(500, ErrorMessage = "Max Must Be 500 Chars.")]
         [MinLength(3)]
         public string Name { get; set; }
+        public IList<ItemViewModel> Item { get; set; }
     }
 }

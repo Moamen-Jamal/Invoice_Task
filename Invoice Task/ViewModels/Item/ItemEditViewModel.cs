@@ -10,6 +10,6 @@ namespace ViewModels
         public string Name { get; set; }
         public int StoreID { get; set; }
         public string StoreName { get; set; }
-        public ICollection<ItemUnitEditViewModel> ItemUnit { get; set; }
+        public IList<ItemUnitEditViewModel> ItemUnit { get; set; }
     }
 }

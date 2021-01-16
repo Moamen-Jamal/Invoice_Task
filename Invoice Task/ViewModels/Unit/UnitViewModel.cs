@@ -8,6 +8,6 @@ namespace ViewModels
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public ICollection<ItemUnitViewModel> ItemUnit { get; set; }
+        public IList<ItemUnitViewModel> ItemUnit { get; set; }
     }
 }

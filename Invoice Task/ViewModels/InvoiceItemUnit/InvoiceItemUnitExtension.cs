@@ -14,7 +14,10 @@ namespace ViewModels
                 ID = model.ID,
                 Quantity = model.Quantity,
                 ItemUnitID = model.ItemUnitID,
-                InvoiceID = model.InvoiceID
+                InvoiceID = model.InvoiceID,
+                TotalPrice = model.TotalPrice,
+                Discount = model.Discount,
+                NetPrice = model.NetPrice
             };
         }
 
@@ -25,7 +28,11 @@ namespace ViewModels
                 ID = editModel.ID,
                 Quantity = editModel.Quantity,
                 ItemUnitID = editModel.ItemUnitID,
-                InvoiceID = editModel.InvoiceID
+                InvoiceID = editModel.InvoiceID,
+                TotalPrice = editModel.TotalPrice,
+                Discount = editModel.Discount,
+                NetPrice = editModel.NetPrice
+
 
             };
         }
@@ -36,7 +43,10 @@ namespace ViewModels
                 ID = model.ID,
                 Quantity = model.Quantity,
                 ItemUnitID = model.ItemUnitID,
-                InvoiceID = model.InvoiceID
+                InvoiceID = model.InvoiceID,
+                TotalPrice = model.TotalPrice,
+                Discount = model.Discount,
+                NetPrice = model.NetPrice
             };
         }
     }

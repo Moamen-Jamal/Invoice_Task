@@ -1,6 +1,7 @@
 ﻿using Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ViewModels
@@ -13,6 +14,7 @@ namespace ViewModels
             {
                 ID = model.ID,
                 Name = model.Name,
+               // Item = model.Items.Where(i => i.StoreID == model.ID).Select(i => i.ToViewModel()).ToList()
             };
         }
 

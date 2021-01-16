@@ -7,6 +7,7 @@ namespace Entities
     public class ItemUnit : BaseModel
     {
         public decimal Price { get; set; }
+        
         public virtual Item Item { get; set; }
         public int ItemID { get; set; }
         public virtual Unit Unit { get; set; }

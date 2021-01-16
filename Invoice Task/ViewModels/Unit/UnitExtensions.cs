@@ -14,7 +14,7 @@ namespace ViewModels
             {
                 ID = model.ID,
                 Name = model.Name,
-                ItemUnit = model.ItemUnits.Where(i => i.UnitID == model.ID).Select(i => i.ToViewModel()).ToList(),
+                //ItemUnit = model.ItemUnits.Where(i => i.UnitID == model.ID).Select(i => i.ToViewModel()).ToList(),
             };
         }
 

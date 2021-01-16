@@ -20,3 +20,15 @@ D:\Visual\ASP\Day8\LuxorDemo\Entities\Entities\obj\Debug\netcoreapp3.1\Entities.
 D:\Visual\ASP\Day8\LuxorDemo\Entities\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\Visual\ASP\Day8\LuxorDemo\Entities\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 D:\Visual\ASP\Day8\LuxorDemo\Entities\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+D:\Visual\CompuMedical\Invoice Task\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Visual\CompuMedical\Invoice Task\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+D:\Visual\CompuMedical\Invoice Task\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+D:\Visual\CompuMedical\Invoice Task\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Visual\CompuMedical\Invoice Task\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\Visual\CompuMedical\Invoice Task\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZoUTCmF/I+6lNmlhoEjh5ngekcWdDPUj1GgsJMBjl1fizfD7pEJhirCNM/R7bXzkmIHBhC0BI5hSErnbhcOtg==",
+  "dgSpecHash": "bm0SvgNbcp5Vy9C+vT45w1EuGn+9YdOC7iqYv5RndrbTNiQ/iyeo9i6BTgEuOh/YEdcIQkRAGoNttffL3vpOZA==",
   "success": true,
-  "projectFilePath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

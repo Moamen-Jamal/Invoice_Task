@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F6tXFYTAc2kA9zAoAH2Pkf6M7+JFHFeJ5yS6VgpkCBDj/CxjZZ52jVkYOhUPM6bwEwW7RQDNzl2nwdmDstxgTQ==",
+  "dgSpecHash": "buQiKZBtlj4+GtuukuUu8jVOWTVhkgqrDfIDY5YzCyaRlVGR0IJ708bac77E1ndDGop201AtPJVPIRrNgfPE6A==",
   "success": true,
-  "projectFilePath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Services\\Services.csproj",
+  "projectFilePath": "D:\\Visual\\CompuMedical\\Invoice Task\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.4\\microsoft.aspnetcore.http.features.3.1.4.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

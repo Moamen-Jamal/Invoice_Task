@@ -1,6 +1,7 @@
 ﻿using Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ViewModels
@@ -15,7 +16,8 @@ namespace ViewModels
                 Date = model.Date,
                 Total = model.Total,
                 Taxes = model.Taxes,
-                Net = model.Net
+                Net = model.Net,
+                InvoiceItemUnit = model.InvoiceItemUnits.Select(i => i.ToViewModel())
             };
         }
 
@@ -27,7 +29,8 @@ namespace ViewModels
                 Date = editModel.Date,
                 Total = editModel.Total,
                 Taxes = editModel.Taxes,
-                Net = editModel.Net
+                Net = editModel.Net,
+                InvoiceItemUnits = editModel.InvoiceItemUnit.Select(i => i.ToModel()).ToList()
             };
         }
         public static InvoiceEditViewModel ToEditableModel(this Invoice model)
@@ -38,7 +41,8 @@ namespace ViewModels
                 Date = model.Date,
                 Total = model.Total,
                 Taxes = model.Taxes,
-                Net = model.Net
+                Net = model.Net,
+                InvoiceItemUnit = model.InvoiceItemUnits.Select(i => i.ToEditableModel())
             };
         }
     }

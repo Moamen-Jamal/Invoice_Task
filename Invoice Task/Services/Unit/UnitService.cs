@@ -29,7 +29,7 @@ namespace Services
         }
         public IEnumerable<UnitViewModel> GetList()
         {
-            return unitTory?.GetList()?.ToList()?.Select(i => i?.ToViewModel());
+            return unitTory.GetList().ToList().Select(i => i.ToViewModel());
         }
         //public IEnumerable<UnitViewModel> Get(int id = 0, string name = "", int pageIndex = 0, int pageSize = 20)
         //{

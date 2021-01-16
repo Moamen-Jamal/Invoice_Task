@@ -16,6 +16,8 @@ namespace Entities
                 .HasColumnName("Price")
                 .IsRequired();
 
+            
+
             builder.HasOne(i => i.Item)
                 .WithMany(i => i.ItemUnits)
                 .HasForeignKey(i => i.ItemID)

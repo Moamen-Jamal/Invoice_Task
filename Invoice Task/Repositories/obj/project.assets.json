@@ -1867,6 +1867,7 @@
       "path": "runtime.native.system/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2101,6 +2102,7 @@
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2742,6 +2744,7 @@
       "path": "system.globalization.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3008,6 +3011,7 @@
       "path": "system.net.nameresolution/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3222,6 +3226,7 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4864,6 +4869,7 @@
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4989,11 +4995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\Visual\\CompuMedical\\Invoice Task\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\Visual\\CompuMedical\\Invoice Task\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Repositories\\obj\\",
+      "outputPath": "D:\\Visual\\CompuMedical\\Invoice Task\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5013,8 +5019,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Visual\\ASP\\Day8\\LuxorDemo\\Entities\\Entities\\Entities.csproj"
+            "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\Visual\\CompuMedical\\Invoice Task\\Entities\\Entities.csproj"
             }
           }
         }
@@ -5069,7 +5075,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

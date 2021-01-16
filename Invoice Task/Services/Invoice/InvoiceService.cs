@@ -49,6 +49,7 @@ namespace Services
         public InvoiceEditViewModel Add(InvoiceEditViewModel editModel)
         {
             EntityEntry<Invoice> Invoice = invoiceTory.Add(editModel.ToModel());
+            
             UnitOfWork.Commit();
             return Invoice.Entity.ToEditableModel();
         }
