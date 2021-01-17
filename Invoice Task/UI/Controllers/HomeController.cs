@@ -62,34 +62,13 @@ namespace UI.Controllers
                     TempData["SelectUnitID"] = 1;
                     var Stores = storeService.GetList();
                     StoreList = Stores;
-                    //List<ItemViewModel> ItemList = new List<ItemViewModel>();
-                    //foreach (var s in Stores)
-                    //{
-                    //    foreach(var z in s.Item)
-                    //    {
-                    //        ItemList.Add(itemService.GetByID(z.ID));
-
-                    //    }
-                    //}
+                    
                     var Items = itemService.GetList().Where(i => i.StoreID == 1);
                     ItemList = Items;
                     var ItemName = itemService.GetList().Where(i => i.ID == 1).Select(x => x.Name).FirstOrDefault();
                     HttpContext.Session.SetString("ItemName", ItemName);
                     
-                    //List<ItemUnitViewModel> ItemUnitList = new List<ItemUnitViewModel>();
-                    //List<UnitViewModel> UnitList = new List<UnitViewModel>();
-
-                    //foreach (var r in Items)
-                    //{
-                    //    foreach (var a in r.ItemUnit)
-                    //    {
-                    //        ItemUnitList.Add(itemUnitService.GetByID(a.ID));
-                    //    }
-                    //}
-                    //foreach (var t in ItemUnitList)
-                    //{
-                    //    UnitList.Add(unitService.GetByID(t.UnitID));
-                    //}
+     
                     var Units = unitService.GetList();
                     UnitList = Units;
                     var UnitName = unitService.GetList().Where(i => i.ID == 1).Select(x => x.Name).FirstOrDefault();
